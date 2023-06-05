@@ -3,6 +3,14 @@ import "./styles.css";
 const text = document.getElementById('input-show');
 const button = document.getElementById('submit-data');
 const list_body = document.getElementById('list-body');
+const form = document.getElementById('submitted')
+
+function submitForm(event){
+
+  event.preventDefault();
+}
+
+form.addEventListener('submit',submitForm)
 
 document.body.addEventListener('click', (event) => {
   if (event.target === button) {
