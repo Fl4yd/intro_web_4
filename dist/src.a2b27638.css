@@ -8,14 +8,14 @@ body {
   margin: 20px;
   padding: 10px;
   border-radius: 6px;
-  box-shadow: inset;
+  box-shadow: 10px 10px 5px gray;
 
 }
 .show-info {
   width: 100%;
 }
 .show-info h1 {
-  margin: auto;
+  text-align: center;
 }
 .show-data img{
   display: block;
@@ -27,6 +27,15 @@ body {
     .show-info {
       padding: 10px;
     }
+}
+@media (max-width: 800px) {
+  img {
+    margin:auto;
+  }
+  .show-info p {
+    text-align: center;
+    padding: 10px;
+  }
 }
 
 /*# sourceMappingURL=/src.a2b27638.css.map */
